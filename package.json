@@ -4,6 +4,10 @@
   "description": "Custom Receiver to enable the use of the Slack Bolt framework with Azure Functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/deepbass/bolt-azure-functions-receiver"
+  },
   "scripts": {
     "build": "tsc",
     "lint": "eslint src/**/*.{ts,tsx}",
