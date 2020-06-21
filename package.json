@@ -1,6 +1,6 @@
 {
   "name": "bolt-azure-functions-receiver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Custom Receiver to enable the use of the Slack Bolt framework with Azure Functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
