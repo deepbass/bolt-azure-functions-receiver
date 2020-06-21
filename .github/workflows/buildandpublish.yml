@@ -30,4 +30,4 @@ jobs:
     - name: Build
       run: npm run build
     - name: Publish
-      run: npm run publish
+      run: npm publish
