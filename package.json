@@ -1,0 +1,38 @@
+{
+  "name": "bolt-azure-functions-receiver",
+  "version": "0.0.1",
+  "description": "Custom Receiver to enable the use of the Slack Bolt framework with Azure Functions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/**/*.{ts,tsx}",
+    "test": "mocha -r ts-node/register **/*.test.ts"
+  },
+  "author": "Daniel Bass",
+  "license": "MIT",
+  "devDependencies": {
+    "@azure/functions": "^1.2.2",
+    "@slack/bolt": "^2.1.1",
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/tsscmp": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.3.0",
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "ts-sinon": "^1.2.0",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "querystring": "^0.2.0",
+    "tsscmp": "^1.0.6"
+  },
+  "mocha": {
+    "r": "ts-node/register",
+    "spec": "**/*.test.ts"
+  }
+}
