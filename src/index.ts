@@ -1,3 +1,1 @@
-import { AzureFunctionsReceiver } from "./receivers/AzureFunctionsReceiver";
-
-export { AzureFunctionsReceiver }
+export { AzureFunctionsReceiver } from "./receivers/AzureFunctionsReceiver";

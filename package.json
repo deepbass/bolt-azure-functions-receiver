@@ -1,12 +1,12 @@
 {
   "name": "bolt-azure-functions-receiver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Custom Receiver to enable the use of the Slack Bolt framework with Azure Functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/deepbass/bolt-azure-functions-receiver"
+    "type": "git",
+    "url": "https://github.com/deepbass/bolt-azure-functions-receiver"
   },
   "scripts": {
     "build": "tsc",
@@ -16,23 +16,22 @@
   "author": "Daniel Bass",
   "license": "MIT",
   "devDependencies": {
-    "@azure/functions": "^1.2.2",
-    "@slack/bolt": "^2.1.1",
-    "@types/chai": "^4.2.11",
-    "@types/mocha": "^7.0.2",
+    "@azure/functions": "^1.2.3",
+    "@slack/bolt": "^3.2.0",
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
     "@types/tsscmp": "^1.0.0",
-    "@typescript-eslint/eslint-plugin": "^3.3.0",
-    "@typescript-eslint/parser": "^3.3.0",
-    "chai": "^4.2.0",
-    "eslint": "^7.3.0",
-    "mocha": "^8.0.1",
-    "ts-node": "^8.10.2",
-    "ts-sinon": "^1.2.0",
-    "typescript": "^3.9.5"
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "chai": "^4.3.0",
+    "eslint": "^7.20.0",
+    "mocha": "^8.3.0",
+    "ts-node": "^9.1.1",
+    "ts-sinon": "^2.0.1",
+    "typescript": "^4.2.2"
   },
   "dependencies": {
-    "crypto": "^1.0.1",
-    "querystring": "^0.2.0",
+    "querystring": "^0.2.1",
     "tsscmp": "^1.0.6"
   },
   "mocha": {
