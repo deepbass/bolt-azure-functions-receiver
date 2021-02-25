@@ -10,32 +10,21 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint src/**/*.{ts,tsx}",
-    "test": "mocha -r ts-node/register **/*.test.ts"
+    "lint": "eslint src/**/*.{ts,tsx}"
   },
   "author": "Daniel Bass",
   "license": "MIT",
   "devDependencies": {
     "@azure/functions": "^1.2.3",
     "@slack/bolt": "^3.2.0",
-    "@types/chai": "^4.2.15",
-    "@types/mocha": "^8.2.1",
-    "@types/tsscmp": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^4.15.2",
     "@typescript-eslint/parser": "^4.15.2",
-    "chai": "^4.3.0",
     "eslint": "^7.20.0",
-    "mocha": "^8.3.0",
     "ts-node": "^9.1.1",
-    "ts-sinon": "^2.0.1",
     "typescript": "^4.2.2"
   },
   "dependencies": {
     "querystring": "^0.2.1",
     "tsscmp": "^1.0.6"
-  },
-  "mocha": {
-    "r": "ts-node/register",
-    "spec": "**/*.test.ts"
   }
 }
